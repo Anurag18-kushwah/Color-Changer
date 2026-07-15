@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+
+.button{
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    display: flex;
+}
+#pink{
+    background-color: pink;
+}
+#green{
+    background-color: green;
+}
+#violet{
+    background-color: violet;
+}
+#yellow{
+    background-color: yellow;
+}
+#black{
+    background-color: black;
+}
+#orange{
+    background-color: orange;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+p{
+    font-size: large;
+    font-weight: bolder;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+}
